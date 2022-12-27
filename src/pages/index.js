@@ -1,7 +1,14 @@
+import {
+  ColumnLeft,
+  ColumnRight,
+  HomeContainer
+} from '../styles/stylespages/stylehome'
+
 export default function Home() {
   return (
-    <>
-      <h1>Home</h1>
-    </>
+    <HomeContainer>
+      <ColumnRight>Right</ColumnRight>
+      <ColumnLeft>Left</ColumnLeft>
+    </HomeContainer>
   )
 }

@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import myLogo from '../../../public/logoHorizontal.png'
 import { Header } from '../Header'
 import { MainContainer } from './style'
 
@@ -9,7 +11,10 @@ export function Layout({ children }) {
         <title>Formulário</title>
       </Head>
 
-      <Header></Header>
+      <Header>
+        <Image src={myLogo} alt="My logo" width={130} />
+        <button>Home</button>
+      </Header>
 
       <MainContainer>{children}</MainContainer>
     </>
