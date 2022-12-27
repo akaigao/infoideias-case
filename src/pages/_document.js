@@ -30,7 +30,6 @@ export default class MyDocument extends Document {
         style={{ scrollBehavior: 'smooth' }}
       >
         <Head>
-          <title>Infoideias - Formulário</title>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"

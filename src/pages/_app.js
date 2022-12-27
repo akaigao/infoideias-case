@@ -1,4 +1,5 @@
 import { ThemeProvider } from 'styled-components'
+import { Layout } from '../components/Layout'
 import { GlobalStyle } from '../styles/globals'
 import light from '../styles/theme/light'
 
@@ -7,7 +8,9 @@ export default function App({ Component, pageProps }) {
     <>
       <ThemeProvider theme={light}>
         <GlobalStyle />
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </ThemeProvider>
     </>
   )
