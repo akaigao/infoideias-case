@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body, #__next {
 
-      font-family: sans-serif;
+      font-family: 'Fira Sans', sans-serif;
       font-size: 16px;
 
       display: flex;

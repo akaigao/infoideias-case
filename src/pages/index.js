@@ -1,13 +1,24 @@
 import { BasicForm } from '../components/BasicForm'
 import { Contact } from '../components/Contact'
-import { HomeContainer } from '../styles/stylespages/stylehome'
+import { Title } from '../components/Title'
+import {
+  Columns,
+  CustomHr,
+  HomeContainer
+} from '../styles/stylespages/stylehome'
 
 export default function Home() {
   return (
     <HomeContainer>
-      <BasicForm></BasicForm>
+      <Title>Não encontrou o que procurava?</Title>
+      <CustomHr />
+      <span>Preencha o formulário e retornaremos o contato.</span>
 
-      <Contact />
+      <Columns>
+        <BasicForm></BasicForm>
+
+        <Contact />
+      </Columns>
     </HomeContainer>
   )
 }
