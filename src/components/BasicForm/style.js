@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ContactContainer = styled.section`
+export const BasicFormContainer = styled.section`
   width: 100%;
   padding: 30px;
 
@@ -9,7 +9,7 @@ export const ContactContainer = styled.section`
   align-items: flex-start;
   justify-content: center;
 
-  background-color: #132d4c;
+  background-color: #fff;
   box-shadow: 0px 0px 40px 0px #0000001a;
-  color: #fff;
+  color: #000;
 `

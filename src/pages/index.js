@@ -1,10 +1,11 @@
+import { BasicForm } from '../components/BasicForm'
 import { Contact } from '../components/Contact'
-import { ColumnRight, HomeContainer } from '../styles/stylespages/stylehome'
+import { HomeContainer } from '../styles/stylespages/stylehome'
 
 export default function Home() {
   return (
     <HomeContainer>
-      <ColumnRight>Right</ColumnRight>
+      <BasicForm></BasicForm>
 
       <Contact />
     </HomeContainer>
