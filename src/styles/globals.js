@@ -34,9 +34,8 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const Box = styled.div`
-  width: 100%;
-
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 `
