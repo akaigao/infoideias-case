@@ -21,4 +21,9 @@ export const Columns = styled(Box)`
   height: 600px;
   margin-top: 50px;
   flex-direction: row;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    height: auto;
+  }
 `

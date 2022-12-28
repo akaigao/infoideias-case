@@ -29,7 +29,7 @@ export function Contact() {
 
       <ItemContact icon={iconMail}>
         <p>E-mail</p>
-        <span>comercial@infoideias.com.br</span>
+        <span id="co">comercial@infoideias.com.br</span>
       </ItemContact>
     </ContactContainer>
   )

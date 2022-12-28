@@ -17,6 +17,12 @@ export const ItemContactContainer = styled.div`
     position: absolute;
     bottom: 0;
   }
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `
 export const BoxLabels = styled(Box)`
   p {
@@ -27,5 +33,13 @@ export const BoxLabels = styled(Box)`
 
   span {
     color: #ffffffbd;
+    word-break: break-all;
+  }
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 `
