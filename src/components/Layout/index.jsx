@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import myLogo from '../../../public/logoHorizontal.png'
+import myLogo from '../../../public/logoHorizontalWhite.png'
 import { Header } from '../Header'
 import MenuMobile from '../MenuMobile'
 import { Navbar } from '../Navbar'
