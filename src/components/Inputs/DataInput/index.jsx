@@ -17,12 +17,13 @@ export function DateInput({ control, name, label, rules }) {
     <InputsContainer>
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         <DatePicker
-          fullWidth
           label={label}
           inputFormat="DD/MM/YYYY"
           value={value}
           onChange={handleChange}
-          renderInput={params => <TextField {...params} variant="standard" />}
+          renderInput={params => (
+            <TextField {...params} fullWidth variant="standard" />
+          )}
         />
       </LocalizationProvider>
     </InputsContainer>
