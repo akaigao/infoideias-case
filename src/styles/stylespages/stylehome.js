@@ -17,6 +17,8 @@ export const CustomHr = styled.hr`
 `
 
 export const Columns = styled(Box)`
+  width: 100%;
+  height: 600px;
   margin-top: 50px;
   flex-direction: row;
 `

@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const BasicFormContainer = styled.section`
   width: 100%;
+  height: 100%;
   padding: 30px;
 
   display: flex;
