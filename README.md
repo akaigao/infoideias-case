@@ -72,6 +72,15 @@ Ou no caso de obter uma cópia localmente, siga esses passos de exemplo.
 
 ---
 
+### PLUS
+
+O arquivo bruto e camadas pode ser encontrado na pasta BANNER neste repositório.
+
+![](https://imgur.com/o2ULcG4.png)
+![](https://imgur.com/a7jvluQ.png)
+
+---
+
 Link do projeto: [Infoideias Case](https://github.com/akaigao/infoideias-case)
 
 Obrigado e espero que gostem!
